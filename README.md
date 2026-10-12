@@ -24,7 +24,7 @@ An AI-powered assistant built with **FastAPI, LangGraph, and Groq** that routes 
 | FastAPI | REST API |
 | LangGraph | Agent workflow and routing |
 | Groq API | LLM inference |
-| Qwen model | Configured language model |
+| Qwen model / openai/gpt-oss-120b model | Configured language model |
 | Sentence Transformers | Text embeddings |
 | `all-MiniLM-L6-v2` | Embedding model |
 | FAISS | Vector similarity search |
@@ -91,7 +91,7 @@ ai-research-task-assistant/
 ## Requirements
 
 - A Python version compatible with the dependencies in `requirements.txt`
-- A Groq API key
+- An API key
 - An OpenWeather API key if the weather tool uses OpenWeather
 - Internet access for external API calls and any model downloads not already cached locally
 
